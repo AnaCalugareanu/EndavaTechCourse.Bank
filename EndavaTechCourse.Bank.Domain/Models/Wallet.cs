@@ -7,5 +7,6 @@ namespace EndavaTechCourse.Bank.Domain.Models
         public decimal Amount { get; set; }
         public string Type { get; set; }
         public Currency Currency { get; set; }
+        public decimal Savings { get; set; }
     }
 }
