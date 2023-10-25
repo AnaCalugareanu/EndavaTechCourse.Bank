@@ -6,6 +6,7 @@ namespace EndavaTechCourse.Bank.Domain.Models
     {
         public decimal Amount { get; set; }
         public Guid WalletId { get; set; }
+        public Guid ReceiverId { get; set; }
         public DateTime TransactionDateTime { get; set; } = DateTime.Now;
     }
 }
